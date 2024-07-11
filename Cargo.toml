@@ -1,0 +1,11 @@
+[package]
+name = "libreadability"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+name = "readability"
+crate-type = ["cdylib"]
+
+[dependencies]
+readable-readability = "0.4.0"
